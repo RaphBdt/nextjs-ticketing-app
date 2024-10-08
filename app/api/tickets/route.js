@@ -6,6 +6,6 @@ export async function GET() {
     const tickets = await res.json();
 
     return NextResponse.json(tickets, {
-        status0: 200
+        status: 200
     })
 }
